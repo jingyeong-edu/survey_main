@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Pretendard", "Noto Sans KR", Arial, sans-serif;
+  background: #f8fafc;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 18px 48px;
+}
+
+.hero {
+  text-align: center;
+  background: white;
+  padding: 44px 24px;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  margin-bottom: 24px;
+}
+
+.icon {
+  font-size: 44px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #111827;
+  margin: 0 0 12px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 28px;
+}
+
+.survey-button {
+  border: none;
+  background: #2563eb;
+  color: white;
+  padding: 15px 28px;
+  font-size: 17px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.survey-button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 28px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+h2 {
+  font-size: 22px;
+  color: #111827;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.info {
+  border-left: 4px solid #2563eb;
+  padding-left: 14px;
+  margin-bottom: 20px;
+}
+
+.info h3 {
+  font-size: 17px;
+  color: #1f2937;
+  margin: 0 0 6px;
+}
+
+.info p {
+  margin: 0;
+}
+
+.qr-section {
+  text-align: center;
+}
+
+.qr-img {
+  width: 220px;
+  max-width: 80%;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  background: white;
+  transition: 0.2s;
+}
+
+.qr-img:hover {
+  transform: scale(1.03);
+}
+
+.small-text {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.researcher {
+  text-align: center;
+  font-size: 15px;
+  color: #4b5563;
+  padding: 20px;
+}
+
+.researcher a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 14px 36px;
+  }
+
+  .hero {
+    padding: 36px 18px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .survey-button {
+    width: 100%;
+  }
+}
