@@ -1,3 +1,3 @@
 function openSurvey() {
-  window.open("설문링크입력", "_blank");
+  window.open("https://docs.google.com/forms/d/e/1FAIpQLSf_dV2IvUvO5rfWkOySVcJe1-Ncp60RifQLkCgFc7NoBvtLKQ/viewform?usp=header", "_blank");
 }
