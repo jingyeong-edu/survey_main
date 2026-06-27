@@ -145,3 +145,28 @@ h2 {
     width: 100%;
   }
 }
+.link-box {
+  margin-top: 26px;
+  padding: 22px 18px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+}
+
+.link-box h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 17px;
+  color: #1f2937;
+}
+
+.link-box p {
+  margin-bottom: 16px;
+}
+
+.url-text {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #6b7280;
+  word-break: break-all;
+}
