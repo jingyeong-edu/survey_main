@@ -99,15 +99,32 @@
       </div>
     </section>
 
-    <section class="card qr-section">
-      <h2>학생 제공용 QR코드</h2>
-      <a href="qr.html" target="_blank">
-        <img src="qr.png" alt="설문 QR코드" class="qr-img" />
-      </a>
-      <p class="small-text">
-        학생들에게 설문 링크 또는 QR코드를 제공하여 개별적으로 응답할 수 있도록 안내해 주시면 됩니다.
-      </p>
-    </section>
+    <section class="card qr-section" id="survey-access">
+  <h2>학생 제공용 QR코드 및 설문 링크</h2>
+
+  <a href="qr.html" target="_blank">
+    <img src="qr.png" alt="설문 QR코드" class="qr-img" />
+  </a>
+
+  <p class="small-text">
+    QR코드를 클릭하면 크게 볼 수 있습니다.
+  </p>
+
+  <div class="link-box">
+    <h3>QR코드 접속이 어려운 경우</h3>
+    <p>
+      학생들이 QR코드 사용이 어려운 경우, 아래 설문 링크를 제공하여 참여할 수 있도록 안내해 주시면 됩니다.
+    </p>
+
+    <button class="survey-button" onclick="openSurvey()">
+      설문 링크로 참여하기 →
+    </button>
+
+    <p class="url-text">
+      설문링크입력
+    </p>
+  </div>
+</section>
 
     <section class="researcher">
       <h2>연구자</h2>
